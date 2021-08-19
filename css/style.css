@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* Comienza el header */
+.header {
+  background-image: url(../imagenes/fondo-colores-pastel.jpg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 120px;
+}
+
+.headerTitulo {
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  margin-top: 20px;
+  font-size: 2rem;
+  color: blue;
+}
+
+.header__menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 10px;
+}
+
+.header__menu ul li a {
+  text-decoration: none;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 16px;
+}
+
+.header__menu ul li a:hover {
+  color: #b35c79;
+}
+
+/* Fin header */
+/* Contenido index */
+.presentacion {
+  padding: 100px;
+}
+
+#seccion {
+  color: #830cf1;
+  width: 100%;
+  height: auto;
+  background-image: url(../imagenes/lapicesdecolores2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#seccion .seccionTitulo {
+  font-family: 'Architects Daughter', cursive;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+#seccion .seccionTexto {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 35px;
+  padding: 40px;
+}
+
+.imgindex {
+  height: 150px;
+  width: auto;
+}
+
+#contacto {
+  line-height: 30px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f8eff4), to(rgba(9, 116, 116, 0.207)));
+  background-image: linear-gradient(#f8eff4, rgba(9, 116, 116, 0.207));
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 50px;
+  color: #830cf1;
+}
+
+.contactoSub {
+  font-size: 1.5rem;
+}
+
+/* comienza footer */
+#footer {
+  color: #fff;
+  font-family: 'Pangolin', cursive;
+  background-color: #097474;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+#footer .footer__subtitulos {
+  padding: 3px;
+}
+
+#footer .enlaces {
+  color: rgba(153, 255, 219, 0.761);
+}
+
+/* fin footer */
+/* nosotros */
+.nosotrosFotos {
+  width: 100%;
+  height: auto;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f8eff4), to(rgba(9, 116, 116, 0.207)));
+  background-image: linear-gradient(#f8eff4, rgba(9, 116, 116, 0.207));
+}
+
+/* seccion servicios */
+#servicios {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  color: #830cf1;
+  background-color: #f8eff4;
+}
+
+.serviciosSubt {
+  font-size: 1.2rem;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.serviciosImg1 {
+  width: 200px;
+  height: auto;
+  border-radius: 100px;
+}
+
+/* seccion contacto */
+.seccionContacto {
+  height: 400px;
+  width: auto;
+  background-color: #f8eff4;
+}
+
+.seccionContacto p {
+  color: #830cf1;
+  font-weight: 700;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 2rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* botones */
+.btn--enviar {
+  padding: 10px 20px;
+  border: 1px solid #c584aa;
+  display: inline-block;
+  text-decoration: none;
+  background-color: #ddece7;
+}
+
+.btn--contacto {
+  padding: 10px 20px;
+  border: 1px solid #c584aa;
+  display: inline-block;
+  text-decoration: none;
+  background-color: #bec6d6;
+}
+
+/* estilo instalaciones */
+.instalaciones--texto {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(9, 116, 116, 0.207)), to(#f8eff4));
+  background-image: linear-gradient(rgba(9, 116, 116, 0.207), #f8eff4);
+  font-family: 'Roboto', sans-serif;
+  padding: 25px;
+  text-align: center;
+  color: #830cf1;
+}
+
+.containerBoots {
+  color: #830cf1;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f8eff4), to(rgba(9, 116, 116, 0.207)));
+  background-image: linear-gradient(#f8eff4, rgba(9, 116, 116, 0.207));
+  padding: 40px;
+  text-align: center;
+}
+
+/* Media queries */
+@media screen and (max-width: 767px) {
+  .header {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    height: 250px;
+  }
+  .header__menu ul {
+    background-color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 5px;
+  }
+  .header__menu ul li a {
+    text-decoration: none;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 16px;
+  }
+  .header__menu ul li a:hover {
+    color: #b35c79;
+  }
+  .seccionTexto {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .seccionTitulo {
+    background-color: rgba(245, 245, 220, 0.481);
+  }
+  .seccionTexto {
+    background-color: rgba(245, 245, 220, 0.481);
+  }
+}
+/*# sourceMappingURL=style.css.map */
